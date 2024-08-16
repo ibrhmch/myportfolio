@@ -1,9 +1,10 @@
+import React from 'react';
+import NavigationBar from "./components/navigationbar/NavigationBar";
+
 function App() {
   return (
-    <div className="flex w-full h-full bg-red-200">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className="min-h-screen w-screen md:max-w-screen-lg mx-auto">
+      <NavigationBar />
     </div>
   );
 }
