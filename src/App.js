@@ -10,6 +10,7 @@ function App() {
       <div className="mt-16"> {/* Add margin to push content below the fixed navbar */}
         <AboutMe />
       </div>
+      <hr />
       <ProjectSection />
     </div>
   );

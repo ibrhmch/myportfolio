@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProfilePicture = () => {
     return (
-        <div className=''>
+        <div className='p-2'>
             <img
                 src={require('./profilepicture.jpg')}
                 alt="Profile"
