@@ -1,6 +1,7 @@
 import React from 'react';
 import NavigationBar from "./components/navigationbar/NavigationBar";
 import AboutMe from "./components/AboutMe/AboutMe";
+import ProjectSection from "./components/Projects/ProjectSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="mt-16"> {/* Add margin to push content below the fixed navbar */}
         <AboutMe />
       </div>
+      <ProjectSection />
     </div>
   );
 }
