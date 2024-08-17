@@ -3,7 +3,7 @@ import IconBar from './IconBar';
 
 const AboutDetails = () => {
     return (
-        <div className="flex flex-col w-4/6 justify-center p-3">
+        <div className="flex flex-col w-full md:w-8/12 justify-center p-3">
             <div className='flex flex-col py-2'>
                 <span className="text-4xl font-bold">Ch Mohammad Ibrahim</span>
                 <span className="text-gray-600">MS CS @ University of Colorado Boulder</span>
